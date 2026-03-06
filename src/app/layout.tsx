@@ -52,7 +52,7 @@ const organizationJsonLd = {
   contactPoint: {
     "@type": "ContactPoint",
     telephone: "080-9322-6024",
-    email: "mediforma1@gmail.com",
+    email: "info@mediforma.jp",
     contactType: "customer support",
     availableLanguage: "Japanese"
   }

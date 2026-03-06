@@ -93,7 +93,7 @@ export const CONTACT_TYPES = [
 ] as const;
 
 export const CONTACT = {
-  email: "mediforma1@gmail.com",
+  email: "info@mediforma.jp",
   phone: "080-9322-6024"
 };
 
@@ -193,7 +193,7 @@ export const PRIVACY_CONTENT = [
     body: [
       "事業者名: Mediforma（メディフォルマ）",
       "代表者: 大原 健太郎",
-      "連絡先: mediforma1@gmail.com / 080-9322-6024"
+      "連絡先: info@mediforma.jp / 080-9322-6024"
     ]
   },
   {
