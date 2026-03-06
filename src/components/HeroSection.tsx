@@ -19,6 +19,8 @@ const fadeInUp = {
 };
 
 export default function HeroSection() {
+  const [titlePrefix, titleSuffix] = HERO_CONTENT.title.split("まるごと。");
+
   return (
     <section className="relative overflow-hidden bg-heroGradient pb-16 pt-32 text-white md:pb-24 md:pt-40">
       <div className="pointer-events-none absolute inset-0 opacity-20">
@@ -33,7 +35,9 @@ export default function HeroSection() {
             MEDICAL SOLUTIONS COMPANY
           </motion.p>
           <motion.h1 variants={fadeInUp} className="text-4xl font-semibold leading-tight md:text-6xl">
-            {HERO_CONTENT.title}
+            {titlePrefix}
+            <span className="whitespace-nowrap">まるごと。</span>
+            {titleSuffix}
           </motion.h1>
           <motion.p variants={fadeInUp} className="mt-6 text-base leading-relaxed text-slate-100 md:text-lg">
             {HERO_CONTENT.description}

@@ -22,7 +22,7 @@ export default function Header() {
       className={`fixed inset-x-0 top-0 z-50 border-b transition-all duration-300 ${
         isScrolled
           ? "border-slate-200 bg-white/95 shadow-sm backdrop-blur"
-          : "border-transparent bg-transparent"
+          : "border-slate-200 bg-white/95 backdrop-blur"
       }`}
     >
       <div className="container-width flex h-16 items-center justify-between">
@@ -45,9 +45,7 @@ export default function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className={`text-sm font-medium transition-colors ${
-                isScrolled ? "text-primaryNavy hover:text-primaryTeal" : "text-white hover:text-teal-100"
-              }`}
+              className="text-sm font-medium text-primaryNavy transition-colors hover:text-primaryTeal"
             >
               {link.label}
             </Link>
@@ -56,18 +54,16 @@ export default function Header() {
 
         <button
           type="button"
-          className={`inline-flex items-center justify-center rounded-md border p-2 md:hidden ${
-            isScrolled ? "border-slate-300" : "border-white/50"
-          }`}
+          className="inline-flex items-center justify-center rounded-md border border-slate-300 p-2 md:hidden"
           aria-label={isMenuOpen ? "メニューを閉じる" : "メニューを開く"}
           aria-expanded={isMenuOpen}
           onClick={() => setIsMenuOpen((prev) => !prev)}
         >
           <span className="sr-only">メニュー</span>
           <div className="space-y-1">
-            <span className={`block h-0.5 w-5 ${isScrolled ? "bg-primaryNavy" : "bg-white"}`} />
-            <span className={`block h-0.5 w-5 ${isScrolled ? "bg-primaryNavy" : "bg-white"}`} />
-            <span className={`block h-0.5 w-5 ${isScrolled ? "bg-primaryNavy" : "bg-white"}`} />
+            <span className="block h-0.5 w-5 bg-primaryNavy" />
+            <span className="block h-0.5 w-5 bg-primaryNavy" />
+            <span className="block h-0.5 w-5 bg-primaryNavy" />
           </div>
         </button>
       </div>
