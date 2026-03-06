@@ -27,7 +27,17 @@ export default function Header() {
     >
       <div className="container-width flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-3" aria-label="Mediforma ホームへ移動">
-          <Image src="/images/logo.svg" alt="Mediforma ロゴ" width={56} height={37} priority />
+          <Image
+            src="/images/logo.svg"
+            alt="Mediforma ロゴ"
+            width={46}
+            height={32}
+            priority
+            className="h-8 w-auto md:h-9"
+          />
+          <span className="font-[var(--font-poppins)] text-2xl font-semibold leading-none tracking-tight text-primaryNavy">
+            Mediforma
+          </span>
         </Link>
 
         <nav className="hidden items-center gap-7 md:flex" aria-label="メインナビゲーション">
