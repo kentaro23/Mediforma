@@ -8,7 +8,9 @@ export default function Footer() {
       <div className="container-width py-12">
         <div className="grid gap-10 md:grid-cols-3">
           <div>
-            <Image src="/images/logo-white.svg" alt="Mediforma ロゴ" width={152} height={34} />
+            <div className="inline-flex rounded-xl bg-white p-2">
+              <Image src="/images/logo.svg" alt="Mediforma ロゴ" width={84} height={56} />
+            </div>
           </div>
 
           <div>
