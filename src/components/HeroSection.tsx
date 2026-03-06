@@ -19,8 +19,6 @@ const fadeInUp = {
 };
 
 export default function HeroSection() {
-  const [titlePrefix, titleSuffix] = HERO_CONTENT.title.split("まるごと。");
-
   return (
     <section className="relative overflow-hidden bg-heroGradient pb-16 pt-32 text-white md:pb-24 md:pt-40">
       <div className="pointer-events-none absolute inset-0 opacity-20">
@@ -30,16 +28,20 @@ export default function HeroSection() {
       </div>
 
       <div className="container-width relative">
-        <motion.div variants={stagger} initial="hidden" animate="show" className="max-w-3xl">
+        <motion.div variants={stagger} initial="hidden" animate="show" className="max-w-3xl lg:max-w-none">
           <motion.p variants={fadeInUp} className="mb-4 text-sm font-medium tracking-[0.24em] text-teal-100">
             MEDICAL SOLUTIONS COMPANY
           </motion.p>
-          <motion.h1 variants={fadeInUp} className="text-4xl font-semibold leading-tight md:text-6xl">
-            {titlePrefix}
-            <span className="whitespace-nowrap">まるごと。</span>
-            {titleSuffix}
+          <motion.h1
+            variants={fadeInUp}
+            className="text-4xl font-semibold leading-tight md:text-6xl lg:whitespace-nowrap"
+          >
+            {HERO_CONTENT.title}
           </motion.h1>
-          <motion.p variants={fadeInUp} className="mt-6 text-base leading-relaxed text-slate-100 md:text-lg">
+          <motion.p
+            variants={fadeInUp}
+            className="mt-6 text-base leading-relaxed text-slate-100 md:text-lg lg:whitespace-nowrap"
+          >
             {HERO_CONTENT.description}
           </motion.p>
           <motion.div variants={fadeInUp} className="mt-10 flex flex-wrap gap-4">
