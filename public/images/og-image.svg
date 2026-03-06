@@ -1,0 +1,7 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#13223D"/>
+  <circle cx="1030" cy="90" r="190" fill="#1F9993" fill-opacity="0.25"/>
+  <circle cx="140" cy="520" r="230" fill="#2ABFBF" fill-opacity="0.22"/>
+  <text x="110" y="290" fill="white" font-size="84" font-family="Poppins, sans-serif" font-weight="600">Mediforma</text>
+  <text x="110" y="365" fill="#D8E5F8" font-size="38" font-family="Noto Sans JP, sans-serif">医療の「困った」を、まるごと。</text>
+</svg>

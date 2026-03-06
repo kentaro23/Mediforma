@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-white text-primaryNavy antialiased;
+}
+
+.section-padding {
+  @apply py-16 md:py-24;
+}
+
+.container-width {
+  @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+}
+
+.ecg-divider {
+  height: 2px;
+  background: repeating-linear-gradient(
+    90deg,
+    #1f9993 0,
+    #1f9993 32px,
+    transparent 32px,
+    transparent 44px,
+    #2abfbf 44px,
+    #2abfbf 52px,
+    transparent 52px,
+    transparent 74px
+  );
+}
