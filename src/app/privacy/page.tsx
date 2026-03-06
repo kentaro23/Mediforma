@@ -15,7 +15,7 @@ export default function PrivacyPage() {
           {PRIVACY_CONTENT.map((section) => (
             <section key={section.title}>
               <h2 className="text-lg font-semibold text-primaryNavy">{section.title}</h2>
-              {section.hasBullet ? (
+              {"hasBullet" in section && section.hasBullet ? (
                 <>
                   <p className="mt-2">{section.body[0]}</p>
                   <ul className="mt-2 list-disc pl-5">
