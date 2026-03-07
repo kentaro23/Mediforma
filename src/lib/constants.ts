@@ -10,7 +10,7 @@ export const NAV_LINKS = [
 ] as const;
 
 export const HERO_CONTENT = {
-  title: "医療の\"困った\"を、まるごと。",
+  title: "未来の医療を、共につくる",
   description:
     "学会運営からDX推進、医学教育、AI導入まで。Mediformaは医療に関わるすべての課題に寄り添います。",
   primaryCta: { label: "サービスを見る", href: "/services" },
@@ -29,8 +29,8 @@ export const SERVICES = [
   {
     slug: "dx",
     name: "Mediforma DX",
-    heading: "医療機関の業務を、テクノロジーでスマートに",
-    summary: "医療機関の業務を、テクノロジーでスマートに",
+    heading: "忙しすぎる医療をスマートに",
+    summary: "忙しすぎる医療をスマートに",
     icon: "💡",
     href: "/services/dx"
   },
@@ -134,7 +134,7 @@ export const SERVICE_DETAIL_CONTENT = {
     ]
   },
   dx: {
-    title: "医療機関の業務を、テクノロジーでスマートに",
+    title: "忙しすぎる医療をスマートに",
     description:
       "予約が電話だけ、問診が紙、患者導線が非効率など、現場の課題を診療フローに合わせて改善します。",
     services: [
