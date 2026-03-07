@@ -22,7 +22,7 @@ export const SERVICES = [
     slug: "society",
     name: "Mediforma Society",
     heading: "がっかりさせない学会",
-    summary: "学会事務局の運営を、まるごとお任せ",
+    summary: "がっかりさせない学会",
     icon: "🏛",
     href: "/services/society"
   },
