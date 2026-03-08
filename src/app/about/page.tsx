@@ -5,7 +5,7 @@ import { COMPANY, SERVICES, TIMELINE } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "会社概要",
-  description: "Mediforma（メディフォルマ）の会社概要、事業内容、沿革を掲載しています。"
+  description: "Mediforma（メディフォーマ）の会社概要、事業内容、沿革を掲載しています。"
 };
 
 export default function AboutPage() {

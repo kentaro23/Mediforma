@@ -23,7 +23,7 @@ export const SERVICES = [
     name: "Mediforma Society",
     heading: "がっかりさせない学会",
     summary: "がっかりさせない学会",
-    icon: "🏛",
+    icon: "society",
     href: "/services/society"
   },
   {
@@ -31,7 +31,7 @@ export const SERVICES = [
     name: "Mediforma DX",
     heading: "忙しすぎる医療をスマートに",
     summary: "忙しすぎる医療をスマートに",
-    icon: "💡",
+    icon: "dx",
     href: "/services/dx"
   },
   {
@@ -39,7 +39,7 @@ export const SERVICES = [
     name: "Mediforma Education",
     heading: "未来の医師を、共に育てる",
     summary: "未来の医師を、共に育てる",
-    icon: "📚",
+    icon: "education",
     href: "/services/education"
   },
   {
@@ -47,7 +47,7 @@ export const SERVICES = [
     name: "Mediforma Consulting",
     heading: "AI導入から運用まで、伴走型でサポート",
     summary: "AI導入から運用まで、伴走型でサポート",
-    icon: "🤝",
+    icon: "consulting",
     href: "/services/consulting"
   }
 ] as const;
@@ -98,7 +98,7 @@ export const CONTACT = {
 };
 
 export const COMPANY = {
-  name: "Mediforma（メディフォルマ）",
+  name: "Mediforma（メディフォーマ）",
   type: "個人事業",
   representative: "大原 健太郎",
   address: "（プレースホルダー）",
@@ -191,7 +191,7 @@ export const PRIVACY_CONTENT = [
   {
     title: "1. 事業者情報",
     body: [
-      "事業者名: Mediforma（メディフォルマ）",
+      "事業者名: Mediforma（メディフォーマ）",
       "代表者: 大原 健太郎",
       "連絡先: info@mediforma.jp / 080-9322-6024"
     ]
