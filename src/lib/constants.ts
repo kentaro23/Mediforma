@@ -45,7 +45,7 @@ export const SERVICES = [
   {
     slug: "consulting",
     name: "Mediforma Consulting",
-    heading: "AI導入から運用まで、伴走型でサポート",
+    heading: "医療に戦略とAIを",
     summary: "医療に戦略とAIを",
     icon: "consulting",
     href: "/services/consulting"
@@ -164,7 +164,7 @@ export const SERVICE_DETAIL_CONTENT = {
       "合格実績・受講者の進路データを掲載するエリアです。公開可能な実績に合わせて随時更新できます。"
   },
   consulting: {
-    title: "AI導入から運用まで、伴走型でサポート",
+    title: "医療に戦略とAIを",
     description:
       "AI活用戦略の策定から運用体制構築まで、医療現場の実装フェーズに合わせて継続的に支援します。",
     services: [
