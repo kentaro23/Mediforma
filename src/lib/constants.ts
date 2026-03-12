@@ -46,7 +46,7 @@ export const SERVICES = [
     slug: "consulting",
     name: "Mediforma Consulting",
     heading: "AI導入から運用まで、伴走型でサポート",
-    summary: "AI導入から運用まで、伴走型でサポート",
+    summary: "医療に戦略とAIを",
     icon: "consulting",
     href: "/services/consulting"
   }
