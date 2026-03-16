@@ -52,6 +52,39 @@ export const SERVICES = [
   }
 ] as const;
 
+export const FAMILY_SITES = [
+  {
+    name: "Mediforma",
+    description: "公式コーポレートサイト",
+    href: "https://mediforma.jp",
+    status: "公開中"
+  },
+  {
+    name: "Mediforma Education",
+    description: "医学教育・受験支援サイト",
+    href: "https://mediformaedu.com",
+    status: "公開中"
+  },
+  {
+    name: "Mediforma Society",
+    description: "学会運営支援サイト",
+    href: null,
+    status: "準備中"
+  },
+  {
+    name: "Mediforma DX",
+    description: "医療DX支援サイト",
+    href: null,
+    status: "準備中"
+  },
+  {
+    name: "Mediforma Consulting",
+    description: "AI導入・戦略支援サイト",
+    href: null,
+    status: "準備中"
+  }
+] as const;
+
 export const MESSAGE = {
   name: "大原 健太郎（OHARA KENTARO）",
   body: "医療の現場には、まだまだ「もったいない」が溢れています。事務作業に追われる学会、非効率なオペレーションの医療機関、情報格差に悩む受験生。Mediformaは、テクノロジーと人の力で、その一つひとつを解決していきます。"
