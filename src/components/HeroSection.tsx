@@ -24,7 +24,6 @@ export default function HeroSection() {
       <div className="pointer-events-none absolute inset-0 opacity-20">
         <div className="absolute -left-10 top-20 h-60 w-60 rounded-full border border-white/40" />
         <div className="absolute right-10 top-1/3 h-52 w-52 rounded-full border border-white/30" />
-        <div className="absolute bottom-20 left-1/3 text-[220px] font-bold leading-none text-white/10">M</div>
       </div>
 
       <div className="container-width relative">
