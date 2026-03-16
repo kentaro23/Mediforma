@@ -59,7 +59,7 @@ export default function CountUpSection() {
     <section className="section-padding bg-lightGray" aria-labelledby="results-heading">
       <div className="container-width" ref={ref}>
         <h2 id="results-heading" className="text-3xl font-semibold text-primaryNavy md:text-4xl">
-          実績・数字
+          実績
         </h2>
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {ACHIEVEMENTS.map((item) => (
